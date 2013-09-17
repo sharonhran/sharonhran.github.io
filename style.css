@@ -1,25 +1,35 @@
 body {
-	background: #33ddff;
-	font-size: 21px;
-	font-family: Impact, Arial;
+	background: #bdbdc9;
+	font-size: 18px;	
+	font-family: Garamond, serif;
 
 }
 h1 {
-	font sie: 30px;
+	font size: 35px;
+	font-family: Lucida;
+	color: gray;
 }
 h4 {
-	color: blue;
+	color: gray;
+
 }
 .shape {
-	background: #000000;
+	background: none ;
 	font-color: #ffffff;
-	height: 200px;
-	width: 50px;
+	height: 50px;
+	width: 150px;
 	padding-left: 10px;
 	padding-right:10px;
 	margin-left: 20px;
-	border-left:2px solid #000000;
-}
-a {
+	border-left:5px solid #7da7d9;
+	border-right:5px solid #7da7d9;
 	
+}
+.shape1 {
+	background: none;
+	font-color: #ffffff;
+	height: 50px;
+	width: 300px;
+	border-left: 5px solid #7da7d9;
+	border-right: 5px solid #7da7d9;
 }
