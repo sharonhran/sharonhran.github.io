@@ -7,7 +7,7 @@ body {
 	color: gray;
 }
 .myessay {
-	margin:20px 150px 50px 150px;
+	margin:20px 200px 50px 200px;
 	font-size:15px;
 }
 
@@ -28,8 +28,8 @@ body {
 }
 
 .blockquote {
-	font size:150%;
-	font-weight: bold, italic;
+	font size:20px;
+	font-weight: bold;
 	text-align: center;
 }
 
