@@ -7,7 +7,7 @@ body {
 	color: gray;
 }
 .myessay {
-	margin:20px 200px 50px 200px;
+	margin:20px 150px 50px 150px;
 	font-size:15px;
 }
 
@@ -25,6 +25,7 @@ body {
 	text-transform: 3px;
 	font-weight: bold;
 	text-align: center;
+	margin: 20px 150px;
 }
 
 .blockquote {
@@ -44,4 +45,5 @@ body {
 
 .date {
 	text-align: left;
+
 }
