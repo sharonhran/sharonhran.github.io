@@ -11,9 +11,10 @@ body {
 .myessay p {
 }
 
-.h1 {
-	font-family:"mono45-headline";
+h1 {
+	font-family: "mono45-headline";
 	font-size: 2em;
+	margin-top: 50px;
 }
 
 h2 {
@@ -42,5 +43,8 @@ h2 {
 	width: 100px;
 	border-left: 5px solid #7da7d9;
 	border-right: 5px solid #7da7d9;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
 
 
