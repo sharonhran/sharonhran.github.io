@@ -11,12 +11,12 @@ body {
 .myessay p {
 }
 
-h1 {
+.h1 {
 	font-family:"mono45-headline";
 	font-size: 2em;
 }
 
-.h2 {
+h2 {
 	font-size: 130%;
 	text-transform: 3px;
 	font-weight: bold;
