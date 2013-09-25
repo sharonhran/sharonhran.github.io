@@ -3,9 +3,6 @@ body {
 	font-family: arial, serif;
 }
 
-.p {
-	color: gray;
-}
 .myessay {
 	margin:20px 300px 50px 300px;
 	font-size:15px;
@@ -46,7 +43,4 @@ body {
 	border-left: 5px solid #7da7d9;
 	border-right: 5px solid #7da7d9;
 
-.date {
-	text-align: left;
 
-}
