@@ -4,7 +4,7 @@ body {
 }
 
 .myessay {
-	margin:20px 300px 50px 300px;
+	margin:20px 400px 50px 400px;
 	font-size:15px;
 }
 
@@ -12,19 +12,21 @@ body {
 }
 
 h1 {
-	font-family: "mono45-headline";
+	font-family: "mono45-headline", impact;
 	font-size: 2em;
 	margin-top: 50px;
 	font-style: italic;
-	margin: 50px auto
+	margin: 50px auto;
+	text-align: center;
 }
 
 h2 {
+	font-family: "mono45-headline" impact; 	
 	font-size: 130%;
 	text-transform: 3px;
 	font-weight: bold;
-	text-align: center;
-	margin: 20px 150px;
+	text-align: left;
+	
 }
 
 .blockquote {
@@ -33,7 +35,7 @@ h2 {
 	border-left: 5px solid #000000;
 	margin: 1.5em 0;
 	line-height: 1.5em;
-	font-family: impact;
+	font-family: lucida;
 }
 
 .shape1 {
@@ -49,7 +51,14 @@ h2 {
 	margin-bottom: 25px;
 }
 
-h3 {
-	margin: 50px auto;
+.images {
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
+
+dd {
+	text-align: right;
+}

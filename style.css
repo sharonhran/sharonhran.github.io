@@ -15,9 +15,9 @@ h1 {
 
 h4 {
 	color: gray;
-	margin: 100px auto 50px;
+	margin: 100px auto 120px;
 	font-family: Lucida;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -47,6 +47,6 @@ h4 {
 
 .images {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
