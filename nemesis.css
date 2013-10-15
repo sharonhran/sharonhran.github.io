@@ -13,6 +13,14 @@ h1 {
 	text-align: center;
 }
 
+h4 {
+	color: gray;
+	margin: 100px auto 120px;
+	font-family: Lucida;
+	font-size: 20px;
+	text-align: center;
+}
+
 .table {
 	background-color: white;
 	font-color: #bdbdc9;
