@@ -50,3 +50,21 @@ h4 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+
+
+
+
+
+div.thumbnatil {
+	text-decoration: none;
+}
+
+div.thumbnail a:hover {
+	opacity: 1;
+	background: yellow;
+
+}
+
+position: fixed;
+z-index: 1000;
