@@ -2,12 +2,13 @@ body {
 	background: white;
 	font-size: 18px;	
 	font-family: Garamond, serif;
+	text-align: center;
 
 }
 h1 {
-	color: gray;
+	color: 767082;
 	font-size: 35px;
-	font-family: Lucida;
+	font-family: Garamond;
 	color: gray;
 	margin: 100px auto 50px;
 	text-align: center;
@@ -15,9 +16,9 @@ h1 {
 
 h4 {
 	color: gray;
-	margin: 100px auto 120px;
-	font-family: Lucida;
-	font-size: 20px;
+	margin: 100px;
+	font-family: Helvetica;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -41,10 +42,39 @@ h4 {
 	text-align: center;
 }
 
-.images {
+img {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	display: block;
+	position: static; (default)
+}
+
+div.images {
+	display: block; (whole line)
+}
+
+span.images {
+	display: inline;(continue on the line)
+	padding: 1px; (top and bottom )
+}
+
+img.logo {
+
+}
+
+img.document {
+
+}
+
+div.container {
+	background: orange;
+	width: 400px;
+}
+
+div.container img.document {
+	position: absolute;
+	top: 300px;
 }
 
 
