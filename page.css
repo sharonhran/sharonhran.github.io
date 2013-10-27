@@ -18,7 +18,7 @@ h4 {
 	color: gray;
 	margin: 100px;
 	font-family: Helvetica;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 }
 
@@ -31,15 +31,38 @@ h4 {
 	margin: 50px auto;
 }
 
+.shape {
+	background: white;
+	font-family: Garamond;
+	font-size: 13px;
+	text-align: center;
+	border: 3px solid black;
+	margin-top: 50px;
+
+}
+
 .shape1 {
 	background: none;
 	font-color: #ffffff;
 	height: 40px;
 	width: 100px;
-	border-left: 5px solid #7da7d9;
-	border-right: 5px solid #7da7d9;
+	padding-top: 20px;
+	border: 3px solid black;
 	margin: auto;
 	text-align: center;
+}
+
+div.shape {
+	display: inline;
+}
+
+div.shape a:hover {
+	opacity: .5;
+	background: #ffffff;
+}
+
+div.shape1 a:hover {
+	opacity: .5;
 }
 
 img {
@@ -54,18 +77,18 @@ div.images {
 	display: block; (whole line)
 }
 
-span.images {
-	display: inline;(continue on the line)
-	padding: 1px; (top and bottom )
-}
+/*span.images {
+	display: inline;
+	padding: 1px;
+}*/
 
-img.logo {
+/*img.logo {
 
 }
 
 img.document {
 
-}
+}*/
 
 div.container {
 	background: orange;
