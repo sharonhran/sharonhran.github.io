@@ -8,7 +8,7 @@ body {
 h1 {
 	font-size: 35px;
 	font-family: Garamond;
-	color: gray;
+	color: black;
 	margin: 100px auto 50px;
 	text-align: center;
 }
@@ -20,14 +20,33 @@ h2 {
 	font-style: italic;
 }
 
-h4 {
-	color: gray;
+h5 {
+	color: red;
+	font-size: 13px;
+	font-family: Tahoma;
+	margin-left: 30px;
+
+}
+
+h3 {
+	font-color: black;
 	margin-top: 70px;
 	margin-left: 120px;
 	margin-right: 120px;
 	font-family: Helvetica;
 	font-size: 13px;
+	text-align: center;
+}
+
+h4 {
+	color: black;
+	margin-top: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+	font-family: Helvetica;
+	font-size: 13px;
 	text-align: left;
+	display: block;
 }
 
 .table {
@@ -42,7 +61,7 @@ h4 {
 .shape1 {
 	background: none;
 	font-family: Helvetica;
-	font-color: gray;
+	font-color: black;
 	font-size: 13px;
 	height: 40px;
 	width: 100px;
