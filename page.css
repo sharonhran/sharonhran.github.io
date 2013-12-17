@@ -5,6 +5,45 @@ body {
 	text-align: center;
 
 }
+
+ul.list a {
+	position: relative;
+	color: #0a4443;
+	text-decoration: none;
+}
+
+ul.list {
+	list-style: none;
+	padding: none;
+	margin: none;
+	font-size: 15 px;
+	position: absolute;
+
+}
+
+ul.list a:hover {
+	color: blue;
+}
+
+li.project {
+	padding: 30px;
+	position: relative;
+	border-bottom: 1px solid #0a4443;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+
+li.project a:code-link {
+	font-size: 0.5em;
+	text-transform: uppercase;
+	: all 0.2s;
+}
+
+li.project img {
+	position: absolute;
+}
+
 h1 {
 	font-size: 35px;
 	font-family: Garamond;
@@ -40,13 +79,13 @@ h3 {
 
 h4 {
 	color: #151111;
-	margin-top: 10px;
-	margin-left: 120px;
-	margin-right: 120px;
+	padding-top: 10px;
+	padding-left: 120px;
+	padding-right: 120px;
 	font-family: Helvetica;
 	font-size: 13px;
 	text-align: left;
-	display: block;
+	position: absolute;
 }
 
 .table {
@@ -56,29 +95,9 @@ h4 {
 	width: 700px;
 	border: 3px solid #7da7d9;
 	margin: 50px auto;
+	position: fixed;
 }
 
-.shape1 {
-	background: none;
-	font-family: Helvetica;
-	font-color: #151111;
-	font-size: 13px;
-	height: 40px;
-	width: 100px;
-	padding-top: 20px;
-	margin-top: 50px;
-	margin-left: 20px;
-	border-bottom: 3px solid black;
-}
-
-div.shape1 {
-	display: inline;
-}
-
-div.shape1 a:hover {
-	opacity: .5;
-	background: #ffffff;
-}
 
 
 img {

@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+	position: absolute;
+	top: 10px;
+	right: ;
+}
+
+.green {
+	background-color: green;
+	position: fixed;
+	z-index: 500;
+
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+
+
+DISPLAYS
+
+div default: display: block (take the whole page)
+span default: inline, in line with text
+	height and width do not behave
+
+span.red{
+	display: inline-block;
+}
+
+Position default: static (stacks and pile)
+
+relative: like static, but inside
+
+top, bottom, left right allowed on:
+(on their on, independent of other elements)
+	absolute: scrolls with the window, relative to the page 
+	fixed: does not scroll with the window
+
+	z-index: depth (1-1000); ordering manually 
+
+
+
+
