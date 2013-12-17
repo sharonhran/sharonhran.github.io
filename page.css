@@ -41,11 +41,12 @@ h3 {
 
 h4 {
 	color: #151111;
-	padding-top: 20px;
+	padding: 20px;
+	margin-bottom: 20px;
 	font-family: Helvetica;
 	font-size: 13px;
 	text-align: left;
-	position: absolute;
+	position: relative;
 }
 
 .table {
