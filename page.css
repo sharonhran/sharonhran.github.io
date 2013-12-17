@@ -6,44 +6,6 @@ body {
 
 }
 
-ul.list a {
-	position: relative;
-	color: #0a4443;
-	text-decoration: none;
-}
-
-ul.list {
-	list-style: none;
-	padding: none;
-	margin: none;
-	font-size: 15 px;
-	position: absolute;
-
-}
-
-ul.list a:hover {
-	color: blue;
-}
-
-li.project {
-	padding: 30px;
-	position: relative;
-	border-bottom: 1px solid #0a4443;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-
-}
-
-li.project a:code-link {
-	font-size: 0.5em;
-	text-transform: uppercase;
-	: all 0.2s;
-}
-
-li.project img {
-	position: absolute;
-}
-
 h1 {
 	font-size: 35px;
 	font-family: Garamond;
@@ -79,9 +41,7 @@ h3 {
 
 h4 {
 	color: #151111;
-	padding-top: 10px;
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-top: 20px;
 	font-family: Helvetica;
 	font-size: 13px;
 	text-align: left;
